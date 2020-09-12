@@ -11,7 +11,9 @@
     display: inline-block;
     margin: 5px 20px;
     padding: 5px 10px;
-    width: 25%;
+    width: 260px;
+    background-color: #fff;
+    height: 500px;
 }
 .all-list h2 {
     color: #bb996d;
@@ -33,7 +35,7 @@
     line-height: 19px;
 }
 .single-type .brief-mess {
-    margin: 0 20px 0 5px;
+    margin: 0 0 0 5px;
 }
 .single-type .brief-mess .title {
     font-size: 15px;
@@ -49,7 +51,7 @@
 }
 .single-type .icon img {
     width: 80px;
-    height: 200px;
+    height: 150px;
 }
 /* .single-type .number {
     color: #fa595f;

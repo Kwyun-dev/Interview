@@ -48,7 +48,7 @@ body, ul, li {
   padding: 0;
 }
 body {
-  background: var(--blue5);
+  background: #f8f9f9;
 }
 
 .content {

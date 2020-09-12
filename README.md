@@ -42,6 +42,18 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
       |__ typeDetails 
 
+         |__ all.vue 所有列表页组件
+
+         |__ chapter-page.vue 章节页组件
+
+         |__ detail-page.vue 书本详细信息页组件
+
+         |__ list-page.vue 书本目录页组件
+
+      |__ book-type.vue 
+
+      |__home.vue 
+
    |__ router 设置路由
 
       |__ index.js
