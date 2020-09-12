@@ -7,7 +7,7 @@ var result = [
                 "book_name": "没有死者的谋杀",
                 "author": "陆雾",
                 "tag": [1,2],
-                "icon": "", 
+                "icon": "../src/assets/images/first.png", 
                 "portrait": "",
                 "book_msg": {
                     "字数": "73,491",
@@ -91,7 +91,7 @@ var result = [
                 "book_name": "经常谈恋爱的单身姐姐",
                 "author": "坡西米",
                 "tag": [1,2],
-                "icon": "", 
+                "icon": "../src/assets/images/second.jpg", 
                 "portrait": "",
                 "book_msg": {
                     "字数": "142916",
@@ -161,7 +161,7 @@ var result = [
                 "book_name": "你来了",
                 "author": "井儿井",
                 "tag": [1,2],
-                "icon": "", 
+                "icon": "../src/assets/images/third.jpg", 
                 "portrait": "",
                 "book_msg": {
                     "字数": "73,491",

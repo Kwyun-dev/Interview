@@ -12,7 +12,7 @@
                                 <div class="title"> {{ item1.book_name }} </div>
                                 <div class="author"> {{ item1.author}} </div>
                             </div>
-                            <div class="icon"><img src="../../assets/images/logo.png" alt="#"></div>
+                            <div class="icon"><img :src="item1.icon" alt="#"></div>
                         </a>
                     </li>
                 </ul>
@@ -32,7 +32,7 @@ export default {
         gotoBook(item) {
             this.$store.dispatch('setMess', item);
             this.$router.push({name: "detail-page"});
-        }
+        },
     },
     mounted() {
         this.$axios.get('http://localhost:8899/getBookMes').then((res) => {

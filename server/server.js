@@ -1,6 +1,6 @@
 var express = require('express'); //
 var app = express();
-var getBookMes = require('../mock/bookmsg')
+var getBookMes = require('../mock/bookmsg.js')
 
 app.all('*', (req, res, next) => {
     res.header('Access-Control-Allow-Origin', '*');
